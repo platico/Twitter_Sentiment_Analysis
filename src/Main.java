@@ -131,10 +131,10 @@ public class Main {
     public static ConfigurationBuilder configOAuth(){
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("6OCy5yKA8BdZUWGG70mhFwidg")
-                .setOAuthConsumerSecret("GrdZQErAyCcr2RluETOHuR2CPqxIM60n3sVtexS8ygJTPNRNbY")
-                .setOAuthAccessToken("2861701630-MCcFm5T9GwC1zvN95jDARpz8VSrlv80X778Brzu")
-                .setOAuthAccessTokenSecret("ckRSRbyCufk6RHtmMIbqH11cXteBPH2IQ5RjwXiacVx0O");
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("");
 
         cb.setJSONStoreEnabled(true);
         return cb;
